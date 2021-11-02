@@ -28,9 +28,8 @@ pub fn setup_js(workspace_name: String) {
 	fs::write(name, code_workspace).err();
 	Command::new("npm")
 		.arg("install")
-		.arg("-g")
-		.arg("@commitlint/cli")
-		.arg("@commitlint/config-conventional");
+		.arg("--save-dev")
+		.arg("@commitlint/{{cli,config-conventional}}");
 	Command::new("echo")
 		.arg("module.exports = {{extends: ['@commitlint/config-conventional']}}")
 		.arg(">")
