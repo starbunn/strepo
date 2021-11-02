@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"name": "root",
+			"path": "."
+		}
+	],
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"rust-lang.rust"
+		]
+	}
+}
