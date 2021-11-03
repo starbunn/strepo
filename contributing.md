@@ -24,9 +24,14 @@ ie:
 ```
 fix/task (topic)
 
-fix/task! (doing some work on this, rebase this every few minutes)
+fix/task! (do some work on this, commits don't have to follow conventional commits.)
 
-rebase task! into task
+squash-merge fix/task! into fix/task with a conventional commit, hourly
+
+daily, rebase fix/task into dev <- (main local development branch)
+
+daily, commit into dev <- (main remote development branch)
+
 
 keep doing that
 ```
