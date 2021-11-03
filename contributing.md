@@ -60,7 +60,7 @@ keep granular commits in mind.
 
 ### Conventional Commits
 
-commitlint should help with this one, read this for documentation (using angular's stuff):
+uses angular's commit conventions, are very useful.
 
 [Link](https://www.conventionalcommits.org/en/v1.0.0/)
 
