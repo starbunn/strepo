@@ -2,6 +2,7 @@
 A tool for automatically setting up repositories with commitlint, code formatting/linting, and a guide on how to do good branch names.
 ## Installation Guide
 If you're on Windows, we recommend that you use Ubuntu in WSL.
+### Ubuntu 21.04 in WSL
 First, install `rustc` and `cargo`.
 ```
 user@computer:/mnt/c/Users/User$ sudo apt install rustc cargo
