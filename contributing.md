@@ -36,6 +36,27 @@ daily, commit into dev <- (main remote development branch)
 keep doing that
 ```
 
+for example, i would do this:
+
+```
+git checkout fix/task!
+(do some coding)
+git add .
+git commit -m "commit"
+(ready to commit the grain, cause it is a ready commit)
+git checkout fix/task
+git merge --squash fix/task!
+(do the git commit thing)
+git checkout fix/task!
+(^ to keep working on the changes)
+
+and then when i feel like ive finished with the feature branch:
+git rebase fix/task!
+git rebase fix/task
+git checkout dev
+git merge --ff-only fix/task
+```
+
 [Link](http://blog.elliottcable.name/posts/granular_committing.xhtml)
 
 
