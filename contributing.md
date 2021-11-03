@@ -3,10 +3,10 @@
 
 Table Of Contents:
 - [Contributing](#contributing)
-		- [Granular Commiting](#granular-commiting)
-		- [Atomic Commits](#atomic-commits)
-		- [Conventional Commits](#conventional-commits)
-		- [branch naming:](#branch-naming)
+    - [Granular Commiting](#granular-commiting)
+    - [Atomic Commits](#atomic-commits)
+    - [Conventional Commits](#conventional-commits)
+    - [Branch Naming](#branch-naming)
 
 
 
@@ -59,7 +59,7 @@ commitlint should help with this one, read this for documentation (using angular
 
 [Link](https://www.conventionalcommits.org/en/v1.0.0/)
 
-### branch naming:
+### Branch Naming
 
 ```
 TLDR;
