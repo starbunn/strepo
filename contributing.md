@@ -72,7 +72,7 @@ commit each layout seperately, or each layout change seperately.
 if your writing a node.js backend,
 write each function, and commit each function seperately
 
-keep granular commits in mind.
+keep granular commits in mind, as it actually helps with doing this because of the grains basically being atomic commits.
 
 ```
 
