@@ -106,5 +106,6 @@ build/jenkins4 (a branch with code for builds.)
 
 etc.
 
-
 ```
+
+[Link](https://dev.to/couchcamote/git-branching-name-convention-cch)
